@@ -38,3 +38,4 @@ jobs:
         target: ${{ matrix.config.target }}
         # Для версии Geometry Dash 2.208
         sdk: v3.0.0-beta.3
+        cli: v3.7.0
