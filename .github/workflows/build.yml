@@ -33,7 +33,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Build Mod
-      uses: geode-sdk/build-geode-mod@v1
+      uses: geode-sdk/build-geode-mod@main
       with:
         target: ${{ matrix.config.target }}
         # Для версии Geometry Dash 2.208
